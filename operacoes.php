@@ -25,7 +25,7 @@ function alterar_veiculo($veiculo) {
 
 function excluir_veiculo($chave) {
     global $pdo;
-    $sql = "DELETE FROM flor WHERE chave = :chave";
+    $sql = "DELETE FROM veiculo WHERE chave = :chave";
     $pdo->prepare($sql)->execute(["chave" => $chave]);
 }
 

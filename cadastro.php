@@ -12,7 +12,6 @@ function validar($veiculo) {
         && strlen($veiculo["modelo"]) <= 50
         && strlen($veiculo["cor"]) <= 50
         && strlen($veiculo["marca"]) <= 50
-        && $veiculo["tipo"] <= 50
         && in_array($veiculo["tipo"], $tipos, true);
 }
 

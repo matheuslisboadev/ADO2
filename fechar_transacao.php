@@ -5,4 +5,3 @@ if ($transacaoOk) {
     $pdo->rollback();
 }
 $pdo = null;
-?>
