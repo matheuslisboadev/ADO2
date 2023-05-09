@@ -1,7 +1,7 @@
 <?php
 try {
     include "abrir_transacao.php";
-include_once "operacoes.php";
+    include_once "operacoes.php";
 
 ?>
 <!DOCTYPE html>
@@ -47,9 +47,9 @@ include_once "operacoes.php";
 
 <?php
 
-$transacaoOk = true;
+            $transacaoOk = true;
 
 } finally {
-    include "fechar_transacao.php";
+            include "fechar_transacao.php";
 }
 ?>
