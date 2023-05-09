@@ -27,12 +27,12 @@ include_once "operacoes.php";
             <?php foreach ($resultado as $linha) { ?>
                 <tr>
                     <td><?= $linha["chave"] ?></td>
-                    <td><?= $linha["Marca"] ?></td>
-                    <td><?= $linha["Modelo"] ?></td>
-                    <td><?= $linha["Ano"] ?></td>
-                    <td><?= $linha["Placa"] ?></td>
-                    <td><?= $linha["Cor"] ?></td>
-                    <td><?= $linha["Tipo"] ?></td>
+                    <td><?= $linha["marca"] ?></td>
+                    <td><?= $linha["modelo"] ?></td>
+                    <td><?= $linha["ano"] ?></td>
+                    <td><?= $linha["placa"] ?></td>
+                    <td><?= $linha["cor"] ?></td>
+                    <td><?= $linha["tipo"] ?></td>
                     <td>
                         <button type="button">
                             <a href="cadastro.php?chave=<?= $linha["chave"] ?>">Editar</a>
