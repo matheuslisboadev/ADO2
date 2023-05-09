@@ -1,8 +1,8 @@
 # ADO2
 ## Equipe
 
-- Luis Felipe Tomaz
 - Abilio Vieira Filho
-- Wendell Santos
-- Matheus Costa Lisboa
 - Igor Felipe Jordao
+- Luis Felipe Tomaz
+- Matheus Costa Lisboa
+- Wendell Santos
